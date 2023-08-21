@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <div>
+          <img src="./logo.jpg" alt="logo" />
+        </div>
+        <div class="icons">
+          <div class="i1">
+            <i onclick="click" class="bi bi-facebook" style="color: blue"></i>
+          </div>
+
+          <div class="i2">
+            <i
+            onclick="click"
+            class="bi bi-instagram"
+            style="color: rgb(209, 19, 83)"
+          ></i>
+          </div>
+          <div class="i3">
+            <i onclick="click" class="bi bi-twitter" style="color: blue"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="search">
+        <form>
+          <input id="input" type="text" placeholder="search for books..." />
+          <button onclick="searchBook()">search</button>
+        </form>
+
+        <div id="main"></div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
