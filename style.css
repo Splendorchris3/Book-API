@@ -75,7 +75,8 @@ input {
 }
 
 .books {
-    
+    display: flex;
+    flex-direction: column;
     width: 20vw;
     margin: 20px 0px ;
     padding-bottom: 10px;
@@ -83,7 +84,7 @@ input {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     text-align: center;
     line-height: 20px;
-    height: 50vh;
+    height: 60vh;
     background-color: white;
 
 }
@@ -150,7 +151,7 @@ form button {
     border: 1px solid black;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     text-align: center;
-    line-height: 0px;
+    line-height: 20px;
     height: 50vh;
     background-color: white;
 
