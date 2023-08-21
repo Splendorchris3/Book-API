@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function redirectToFacebook() {
+  
+  var facebookIcon = document.getElementById('facebook-icon');
+  var facebookLink = document.createElement('a');
+  facebookLink.href = 'https://www.facebook.com/your-page-url'; 
+  facebookLink.target = '_blank'; 
+  facebookLink.innerHTML = '<img src="facebook-icon.png" alt="Facebook">';
+  
+  facebookIcon.parentNode.replaceChild(facebookLink, facebookIcon);
+  
+  
+  window.location.href = 'https://www.facebook.com/your-page-url'; 
+}
+</script>
+</head>
+<body>
+
+
+<div id="facebook-icon" onclick="redirectToFacebook()">
+  <img src="facebook-icon.png" alt="Facebook">
+</div>
+
+</body>
+</html>

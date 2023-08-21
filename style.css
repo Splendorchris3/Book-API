@@ -11,29 +11,28 @@
   padding: 5px 25px; 
 }
 
-.icons  {
+.icon  {
 display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: space-around;
-
-   cursor: pointer;
+margin: 25px;
 }
 
-.icons i:hover {
+.icon i:hover {
   color: white;
 }
 
 
-.i1 {
+.facebook-icon {
   margin-right: 20px;
 }
 
-.i2 {
+.instagram-icon {
   margin-right: 15px;
 }
 
-.i3 {
+.twitter.icon {
   margin-right: 10px;
 }
 
